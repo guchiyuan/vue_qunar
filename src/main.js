@@ -4,11 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import './assets/styles/reset.css'
+import 'styles/reset.css'
 //解决1pxborder的问题
-import './assets/styles/border.css'
+import 'styles/border.css'
 //解决点击延迟300ms问题
 import fastClick from 'fastclick'
+
+//引入iconfont样式
+import 'styles/iconfont.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)

@@ -37,11 +37,12 @@ export default {
 <style lang="stylus" scoped>
 .wrapper >>>.swiper-pagination-bullet-active
     background #fff
+// 撑开位置防止内容抖动
 .wrapper
     overflow hidden
     width 100%
     height 0
-    padding-bottom 26.67%
+    padding-bottom 26.67% 
     background #eee
     .swiper-img
         width 100%

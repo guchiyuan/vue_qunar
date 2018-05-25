@@ -4,7 +4,7 @@
       周末去哪儿呢？
     </div>
     <ul>
-      <li class="item border-bottom" v-for="item of weekendList" :key="item.id">
+      <li class="item border-bottom" v-for="item of list" :key="item.id">
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.imgUrl" alt="">
           
@@ -20,24 +20,28 @@
 
 <script>
 export default {
+  name:'HomeWeekend',
+  props: {
+    list: Array
+  },
   data () {
     return {
-      weekendList: [{
-        id: '0001',
-        imgUrl: '//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg',
-        title: '牛首山',
-        desc: '在周末让我们放飞自我'
-      },{
-        id: '0002',
-        imgUrl: '//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg',
-        title: '牛首山',
-        desc: '在周末让我们放飞自我'
-      },{
-        id: '0003',
-        imgUrl: '//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg',
-        title: '牛首山',
-        desc: '在周末让我们放飞自我'
-      }]
+      // weekendList: [{
+      //   id: '0001',
+      //   imgUrl: '//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg',
+      //   title: '牛首山',
+      //   desc: '在周末让我们放飞自我'
+      // },{
+      //   id: '0002',
+      //   imgUrl: '//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg',
+      //   title: '牛首山',
+      //   desc: '在周末让我们放飞自我'
+      // },{
+      //   id: '0003',
+      //   imgUrl: '//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg',
+      //   title: '牛首山',
+      //   desc: '在周末让我们放飞自我'
+      // }]
     }
 
   }

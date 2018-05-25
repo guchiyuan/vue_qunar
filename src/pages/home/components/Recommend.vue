@@ -4,7 +4,7 @@
       热门推荐
     </div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+      <li class="item border-bottom" v-for="item of list" :key="item.id">
         <img class="item-img" :src="item.imgUrl">
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -19,34 +19,37 @@
 <script>
 export default {
   name: 'HomeRecommend',
+  props:{
+    list:Array
+  },
   data() {
     return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
-        title: '中山陵',
-        desc: '南京欢迎你，中山陵是你的后花园'
-      },{
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
-        title: '中山陵',
-        desc: '南京欢迎你，中山陵是你的后花园'
-      },{
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
-        title: '中山陵',
-        desc: '南京欢迎你，中山陵是你的后花园'
-      },{
-        id: '0004',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
-        title: '中山陵',
-        desc: '南京欢迎你，中山陵是你的后花园'
-      },{
-        id: '0005',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
-        title: '中山陵',
-        desc: '南京欢迎你，中山陵是你的后花园'
-      }]
+      // recommendList: [{
+      //   id: '0001',
+      //   imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
+      //   title: '中山陵',
+      //   desc: '南京欢迎你，中山陵是你的后花园'
+      // },{
+      //   id: '0002',
+      //   imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
+      //   title: '中山陵',
+      //   desc: '南京欢迎你，中山陵是你的后花园'
+      // },{
+      //   id: '0003',
+      //   imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
+      //   title: '中山陵',
+      //   desc: '南京欢迎你，中山陵是你的后花园'
+      // },{
+      //   id: '0004',
+      //   imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
+      //   title: '中山陵',
+      //   desc: '南京欢迎你，中山陵是你的后花园'
+      // },{
+      //   id: '0005',
+      //   imgUrl: 'http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg',
+      //   title: '中山陵',
+      //   desc: '南京欢迎你，中山陵是你的后花园'
+      // }]
     }
   }
 }

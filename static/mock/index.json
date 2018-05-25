@@ -1,0 +1,94 @@
+{
+  "ret": true,
+  "data": {
+    "city": "南京",
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1805/b2/ea3845efcd579802.jpg_750x200_f2131e39.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1805/de/47d98076af29f202.jpg_750x200_7888b7c9.jpg"
+      }
+    ],
+    "iconsList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+      "desc": "必游榜单"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png",
+      "desc": "踏青赏花"
+    }, {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "一日游"
+    }, {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    }, {
+      "id": "0006",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+      "desc": "必游榜单"
+    }, {
+      "id": "0007",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png",
+      "desc": "踏青赏花"
+    }, {
+      "id": "0008",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "一日游"
+    }, {
+      "id": "0009",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "三日游"
+    }],
+    "recommendList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+      "title": "中山陵",
+      "desc": "南京欢迎你，中山陵是你的后花园"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+      "title": "中山陵",
+      "desc": "南京欢迎你，中山陵是你的后花园"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+      "title": "中山陵",
+      "desc": "南京欢迎你，中山陵是你的后花园"
+    }, {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+      "title": "中山陵",
+      "desc": "南京欢迎你，中山陵是你的后花园"
+    }, {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+      "title": "中山陵",
+      "desc": "南京欢迎你，中山陵是你的后花园"
+    }],
+    "weekendList": [{
+      "id": "0001",
+      "imgUrl": "//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg",
+      "title": "牛首山",
+      "desc": "在周末让我们放飞自我"
+    }, {
+      "id": "0002",
+      "imgUrl": "//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg",
+      "title": "牛首山",
+      "desc": "在周末让我们放飞自我"
+    }, {
+      "id": "0003",
+      "imgUrl": "//img1.qunarzz.com/sight/p0/1601/93/93fc9519bd1959b890.img.jpg_600x330_77ca8bd8.jpg",
+      "title": "牛首山",
+      "desc": "在周末让我们放飞自我"
+    }]
+  }
+}
